@@ -12,6 +12,7 @@
 		B3D3F02B22432A1600F8111A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D3F02922432A1600F8111A /* LaunchScreen.storyboard */; };
 		B3D3F03622432A1600F8111A /* CinemaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F03522432A1600F8111A /* CinemaAppTests.swift */; };
 		B3D3F04122432A1600F8111A /* CinemaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F04022432A1600F8111A /* CinemaAppUITests.swift */; };
+		B3D3F0692243307200F8111A /* MainWindowBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F0682243307200F8111A /* MainWindowBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		B3D3F03C22432A1600F8111A /* CinemaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D3F04022432A1600F8111A /* CinemaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaAppUITests.swift; sourceTree = "<group>"; };
 		B3D3F04222432A1600F8111A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D3F0682243307200F8111A /* MainWindowBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		B3D3F04E22432BE400F8111A /* Default Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3D3F0672243306600F8111A /* Helpers */,
 				B3D3F04F22432C0700F8111A /* Media */,
 				B3D3F05022432C1800F8111A /* Code Files */,
 			);
@@ -141,6 +144,14 @@
 				B3D3F02022432A1500F8111A /* AppDelegate.swift */,
 			);
 			path = "Code Files";
+			sourceTree = "<group>";
+		};
+		B3D3F0672243306600F8111A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B3D3F0682243307200F8111A /* MainWindowBuilder.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D3F0692243307200F8111A /* MainWindowBuilder.swift in Sources */,
 				B3D3F02122432A1500F8111A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
