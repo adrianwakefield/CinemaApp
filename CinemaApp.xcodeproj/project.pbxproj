@@ -16,6 +16,7 @@
 		B3D3F06E224341AA00F8111A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F06D224341AA00F8111A /* Constants.swift */; };
 		B3D3F0702243425D00F8111A /* APIEndpointBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F06F2243425D00F8111A /* APIEndpointBuilder.swift */; };
 		B3D3F0722243430A00F8111A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F0712243430A00F8111A /* Environment.swift */; };
+		B3D3F09422439F7000F8111A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F09322439F7000F8111A /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B3D3F06D224341AA00F8111A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B3D3F06F2243425D00F8111A /* APIEndpointBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointBuilder.swift; sourceTree = "<group>"; };
 		B3D3F0712243430A00F8111A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B3D3F09322439F7000F8111A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				B3D3F0682243307200F8111A /* MainWindowBuilder.swift */,
 				B3D3F06F2243425D00F8111A /* APIEndpointBuilder.swift */,
 				B3D3F0712243430A00F8111A /* Environment.swift */,
+				B3D3F09322439F7000F8111A /* Result.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D3F09422439F7000F8111A /* Result.swift in Sources */,
 				B3D3F0692243307200F8111A /* MainWindowBuilder.swift in Sources */,
 				B3D3F0702243425D00F8111A /* APIEndpointBuilder.swift in Sources */,
 				B3D3F02122432A1500F8111A /* AppDelegate.swift in Sources */,
