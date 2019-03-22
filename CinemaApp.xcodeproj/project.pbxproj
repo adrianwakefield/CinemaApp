@@ -17,6 +17,9 @@
 		B3D3F0702243425D00F8111A /* APIEndpointBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F06F2243425D00F8111A /* APIEndpointBuilder.swift */; };
 		B3D3F0722243430A00F8111A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F0712243430A00F8111A /* Environment.swift */; };
 		B3D3F09422439F7000F8111A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F09322439F7000F8111A /* Result.swift */; };
+		B3D3F11D2244A3DF00F8111A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F11C2244A3DF00F8111A /* TabBarController.swift */; };
+		B3D3F1202244A52300F8111A /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F11F2244A52300F8111A /* NSLayoutConstraint+Extensions.swift */; };
+		B3D3F1222244A55000F8111A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D3F1212244A55000F8111A /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B3D3F06F2243425D00F8111A /* APIEndpointBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointBuilder.swift; sourceTree = "<group>"; };
 		B3D3F0712243430A00F8111A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		B3D3F09322439F7000F8111A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B3D3F11C2244A3DF00F8111A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B3D3F11F2244A52300F8111A /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		B3D3F1212244A55000F8111A /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		B3D3F01F22432A1500F8111A /* CinemaApp */ = {
 			isa = PBXGroup;
 			children = (
+				B3D3F11B2244A3D300F8111A /* Tab Bar Controller */,
 				B3D3F06C2243419F00F8111A /* Constants */,
 				B3D3F0672243306600F8111A /* Helpers */,
 				B3D3F04E22432BE400F8111A /* Default Files */,
@@ -158,6 +165,7 @@
 		B3D3F0672243306600F8111A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B3D3F11E2244A51900F8111A /* Extensions */,
 				B3D3F0682243307200F8111A /* MainWindowBuilder.swift */,
 				B3D3F06F2243425D00F8111A /* APIEndpointBuilder.swift */,
 				B3D3F0712243430A00F8111A /* Environment.swift */,
@@ -172,6 +180,23 @@
 				B3D3F06D224341AA00F8111A /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		B3D3F11B2244A3D300F8111A /* Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3D3F11C2244A3DF00F8111A /* TabBarController.swift */,
+			);
+			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		B3D3F11E2244A51900F8111A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B3D3F11F2244A52300F8111A /* NSLayoutConstraint+Extensions.swift */,
+				B3D3F1212244A55000F8111A /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,7 +332,10 @@
 				B3D3F09422439F7000F8111A /* Result.swift in Sources */,
 				B3D3F0692243307200F8111A /* MainWindowBuilder.swift in Sources */,
 				B3D3F0702243425D00F8111A /* APIEndpointBuilder.swift in Sources */,
+				B3D3F1222244A55000F8111A /* UIView+Extensions.swift in Sources */,
 				B3D3F02122432A1500F8111A /* AppDelegate.swift in Sources */,
+				B3D3F11D2244A3DF00F8111A /* TabBarController.swift in Sources */,
+				B3D3F1202244A52300F8111A /* NSLayoutConstraint+Extensions.swift in Sources */,
 				B3D3F06E224341AA00F8111A /* Constants.swift in Sources */,
 				B3D3F0722243430A00F8111A /* Environment.swift in Sources */,
 			);
